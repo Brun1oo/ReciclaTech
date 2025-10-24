@@ -419,6 +419,11 @@ footer{
     #textoprincipal {
       margin-top: 5%;
     }
+
+    #logo{
+      width: 500px;
+      
+    }
   }
 
   .botoes {
@@ -426,9 +431,14 @@ footer{
     gap: 1rem;
   }
 
+  .container{
+    flex-direction: column;
+  }
+
   .produtos {
     flex-direction: column;
     height: auto;
+    padding-top: 30px;
   }
 
   .grupo_caixas {
@@ -447,7 +457,12 @@ footer{
     align-items: center;
   }
 
+  .final{
+    height: 400px;
+  }
+
   .texto_final {
-    padding: 40px 20px 0;
+    padding: 40px 20px 0px;
+    height: 250px;
   }
 }
